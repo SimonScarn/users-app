@@ -1,0 +1,70 @@
+:root {
+  --bg-main: #f9f9f9;
+  --btn-color: #458d52;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 96%;
+  }
+}
+
+input {
+  height: 32px;
+  padding-inline: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #fff;
+  border: none;
+  outline: 1px solid lightgrey;
+  transition: all .1s ease-in;
+
+}
+
+input:focus,
+input:active,
+input:hover {
+  outline: 1px solid grey;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.input-avatar {
+  border-radius: 4px;
+  padding: 8px;
+}
